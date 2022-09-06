@@ -1,10 +1,10 @@
 # Food Pantry Household Visit Forecasting
-Our dataset contains 336 samples which contains number of client visit in Lakeview FP, number of COVID affected in Lee county, CPI, unemployment rate, average personal income, number of school open days and date of the client visit in every week. 
+Our dataset contains 336 samples which contains number of client visits in Baptist Food Pantry, the number of COVID affected in Lee county, CPI, unemployment rate, average personal income, the number of school open days and the date of the client visit in every week. 
 
-Based on the observation of 4 weeks of the data, our goal is to predict the number of client visit next week. In this prediction problem, the dataset is split into 80% of the training data and 20% of the inference data. 
+Based on the observation of 4 most recent weeks of the data, our goal is to predict the number of client visits next week. In this prediction problem, the dataset is split into 80% of the training data and 20% of the inference data. 
 
 # Procedure 1
-The predictors used in this experiment are listed as follows:
+The client visit forecasting algorithms used in this experiment are listed as follows, which include 7 machine learning algorithms and two baseline algorithms: 
 
 1. Linear Regression 
 2. LASSO (Regularization Parameter = 0.01)
@@ -20,11 +20,13 @@ The predictors used in this experiment are listed as follows:
 # Procedure 2
 Data Generation Using Variational Auto Encoder (VAE):
 
-By using 336 samples and a variational auto encoder, we have generated 835 more data samples. The total dataset is split into 80% for training and 20% for inference. The encoder network has one intermediate layer with 10 ReLU nodes and 2 output nodes. The output of the encoder is the input of the decoder. The decoder has one intermediate layer with 10 linear nodes. The loss function is the addition of reconstruction loss which is the cross-entropy loss and KL divergence loss. After that, we have used the above mentioned algorithms.
+By using 336 samples and a variational auto encoder, we have generated 835 more data samples. The total dataset is split into 80% for training and 20% for inference. The encoder network has one intermediate layer with 10 ReLU nodes and 2 output nodes. The output of the encoder is the input of the decoder. The decoder has one intermediate layer with 10 linear nodes. The loss function is the addition of reconstruction loss which is the cross-entropy loss and KL divergence loss. After that, we have used above-mentioned 9 client visit forecasting.
+
 
 
 # Performance	
-The performance is measured by using Mean Absolution Percentage Error (MAPE).
+The client visit forecasting performance for the Lakeview Baptist Food Pantry is shown in the following table, where the forecasting accuracy is measured by using Mean Absolution Percentage Error (MAPE).
+
 | Algorithm | Training Error | Inference Error | Training Error with VAE | Inference Error with VAE | 
 | :-- | :-: | :-: | :-: | :-: | 
 |Linear Regression| 38.06 %| 45.08 %| 25.45 % | 26.4 %|
