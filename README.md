@@ -13,8 +13,8 @@ The predictors used in this experiment are listed as follows:
 5. Decision Tree Regression (Max Depth 19)
 6. Bayesian Ridge Regression
 7. Ridge Regression (Regularization Parameter 0.5)
-8. Naive Algorithm 1: The number of visits 2 months ago
-9. Naive Algorithm 2: The average number of visits during the last two months
+8. Baseline Algorithm 1: The number of visits 2 months ago
+9. Baseline Algorithm 2: The average number of visits during the last two months
 
 
 # Procedure 2
