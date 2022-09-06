@@ -1,0 +1,8 @@
+General Data folder contains 6 types of Socio-Economic data. They are described as follows: 
+
+1.  Monthly_US_Personal_Income.xls: Monthly US Personal Income in Billions of Dollars from 2016-01-01 to 2022-06-01. 
+2.	Monthly_SNAP_Benefits Recipients._Number_AL.xlx: Monthly Number of SNAP Benefits Recipients in Alabama from 2000-01-01 to 2020-06-01.
+3.  Weekly_US_GAS_price.xls: Weekly Gas Price in Dollars per Gallon from 2015-01-05 to 2022-08-22.
+4.  Quarterly_Total_Personal_Income_in_AL.xls: Quarterly Total Personal Income in Alabama in Millions of Dollars from 2016-01-01 to 2022-01-01.
+5.  Monthly_Unemployment_Rate_in_Lee_County_AL.xls: Monthly Unemployment Rate in Lee County, Alabama from 1990-01-01 to 2022-08-01.
+6.  Monthly_US_Consumer_Price_Index.xls: Monthly US Consumer Price Index from 2016-01-01 to 2022-05-01.
